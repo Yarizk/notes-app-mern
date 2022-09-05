@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Flex:opsz@8..144&display=swap');
+a{
+  text-decoration: none;
+}
+*{
+  font-family: 'Roboto Flex', sans-serif;
+}
+.nav{
+  color: aqua;
+}
+.container{
+  padding-top: 3rem;
+}
+
+.link{
+  color:aqua;
+}
+.link:hover{
+  color: cyan;
+}
+.blog-post__display {
+  border: 1px solid lightgrey;
+  margin: 5px 0px;
+  border-radius: 4px;
+  padding: 10px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+/* create.jsx */
+.form-control{
+  margin-bottom: 1rem ;
+}
+
+
+/* notes.jsx*/
+.fa-pencil:hover{
+  color: cyan;
+}
+.fa-trash-can:hover{
+  color: red;
+}
