@@ -12,7 +12,10 @@ then do
   ```bash
 npm run install
 ```
-2. After that, run the whole app with
+
+2. Add .env file which contain PORT and MONGODB_URI
+
+3. After that, run the whole app with
   ```bash
 npm run gas
 ```
